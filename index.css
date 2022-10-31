@@ -138,10 +138,11 @@ hr{
     top: 75vh;
 }
 .hero{
-    height: 20vh;
+    height: 15vh;
 }
 
 .one,.two,.three{
+    /* margin-left: -20px; */
     height: 20vh;
     width: 22vw;
 display: grid;
@@ -152,6 +153,7 @@ grid-template-columns: 1fr 1fr;
 .num,.topic,.des{
     grid-area: right;
     font-size: 12px;
+    margin-left: -5vw;
 }
 .des{
     margin-top: 40px;
@@ -159,6 +161,10 @@ grid-template-columns: 1fr 1fr;
 .topic{
     margin-top: 20px;
     font-weight: bold;
+}
+
+.two,.three{
+    margin-left: 5vw;
 }
 
 
