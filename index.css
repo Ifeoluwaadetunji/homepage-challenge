@@ -153,7 +153,7 @@ grid-template-columns: 1fr 1fr;
 .num,.topic,.des{
     grid-area: right;
     font-size: 12px;
-    margin-left: -5vw;
+    margin-left: -2vw;
 }
 .des{
     margin-top: 40px;
